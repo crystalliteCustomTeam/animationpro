@@ -109,7 +109,7 @@ export default function Page() {
         para: "As a premier video animation company, we specialize in transforming concepts into captivating visual narratives that defy the ordinary, and formulaic. We are not afraid to push the envelope!",
         accordionData: accordionData
     };
-    //=====Portfilio Fold=====//
+    //=====Portolio Fold=====//
     const tabInfo = [
         { label: "2D Animations", index: 0 },
         { label: "3D Animation", index: 1 },

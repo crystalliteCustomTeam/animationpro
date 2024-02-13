@@ -55,7 +55,7 @@ export default function Page() {
         isBtns: true,
         flodImg: LookingFlodImg
     };
-    //=====Portfilio Fold=====//
+    //=====Portolio Fold=====//
     const tabInfo = [
         { label: "2D Animation", index: 0 },
         { label: "3D Animation", index: 1 },

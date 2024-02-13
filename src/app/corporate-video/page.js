@@ -82,7 +82,7 @@ export default function Page() {
         lists: true,
         checkImg: checkIcon,
     };
-    //=====Portfilio Fold=====//
+    //=====Portolio Fold=====//
     const tabInfo = [
         { label: "All", index: 0 },
         { label: "Explainer Videos", index: 1 },

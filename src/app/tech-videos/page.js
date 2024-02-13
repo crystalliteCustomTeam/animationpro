@@ -93,7 +93,7 @@ export default function Page() {
         checkImg: checkIcon,
         css: "rotateY"
     };
-    //=====Portfilio Fold=====//
+    //=====Portolio Fold=====//
     const tabInfo = [
         { label: "2D Animation", index: 0 },
         { label: "3D Animation", index: 1 },
