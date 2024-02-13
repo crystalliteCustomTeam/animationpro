@@ -47,9 +47,9 @@ const Packages = () => {
                                 </div>
                                 <div className="card_bottom relative z-1 pt-[12px] px-[25px]">
                                     <div className="flex-wrap gap-y-3 flex items-center justify-between">
-                                        <Link href="tel:+1-716-300-1135" className='text-left m-0 text-[14px] leading-[20px] text-[#f61253] montserrat flex flex-col justify-center font-[700]'>
+                                        <Link href="tel:+1-833-666-6689" className='text-left m-0 text-[14px] leading-[20px] text-[#f61253] montserrat flex flex-col justify-center font-[700]'>
                                             speak with us
-                                            <span className='text-[#231f20] text-[16px]'>+1-716-300-1135</span>
+                                            <span className='text-[#231f20] text-[16px]'>+1-833-666-6689</span>
                                         </Link>
                                         <Link href="javascript:;" className='text-left m-0 text-[14px] leading-[20px] text-[#f61253] montserrat flex flex-col justify-center font-[700]'>
                                             Want to Discuss
@@ -102,9 +102,9 @@ const Packages = () => {
                                 </div>
                                 <div className="card_bottom relative z-1 pt-[12px] px-[25px]">
                                     <div className="flex-wrap gap-y-3 flex items-center justify-between">
-                                        <Link href="tel:+1-716-300-1135" className='text-left m-0 text-[14px] leading-[20px] text-[#f61253] montserrat flex flex-col justify-center font-[700]'>
+                                        <Link href="tel:+1-833-666-6689" className='text-left m-0 text-[14px] leading-[20px] text-[#f61253] montserrat flex flex-col justify-center font-[700]'>
                                             speak with us
-                                            <span className='text-[#231f20] text-[16px]'>+1-716-300-1135</span>
+                                            <span className='text-[#231f20] text-[16px]'>+1-833-666-6689</span>
                                         </Link>
                                         <Link href="javascript:;" className='text-left m-0 text-[14px] leading-[20px] text-[#f61253] montserrat flex flex-col justify-center font-[700]'>
                                             Want to Discuss
@@ -157,9 +157,9 @@ const Packages = () => {
                                 </div>
                                 <div className="card_bottom relative z-1 pt-[12px] px-[25px]">
                                     <div className="flex-wrap gap-y-3 flex items-center justify-between">
-                                        <Link href="tel:+1-716-300-1135" className='text-left m-0 text-[14px] leading-[20px] text-[#f61253] montserrat flex flex-col justify-center font-[700]'>
+                                        <Link href="tel:+1-833-666-6689" className='text-left m-0 text-[14px] leading-[20px] text-[#f61253] montserrat flex flex-col justify-center font-[700]'>
                                             speak with us
-                                            <span className='text-[#231f20] text-[16px]'>+1-716-300-1135</span>
+                                            <span className='text-[#231f20] text-[16px]'>+1-833-666-6689</span>
                                         </Link>
                                         <Link href="javascript:;" className='text-left m-0 text-[14px] leading-[20px] text-[#f61253] montserrat flex flex-col justify-center font-[700]'>
                                             Want to Discuss

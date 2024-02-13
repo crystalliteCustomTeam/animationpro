@@ -38,10 +38,10 @@ const Brands = ({ content }) => {
                                 </Link>
                             </div>
                             {isBtn ? <div className="btn">
-                                <Link href="tel:+1-716-300-1135" className='flex items-center'>
+                                <Link href="tel:+1-833-666-6689" className='flex items-center'>
                                     <Image src={UK} alt='UK' className='object-contain' />
                                     <span className='text-[20px] text-black py-[10px] px-[8px] font-bold montserrat'>
-                                        +1-716-300-1135
+                                        +1-833-666-6689
                                     </span>
                                 </Link>
                             </div> : null}
