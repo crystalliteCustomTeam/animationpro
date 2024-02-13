@@ -27,7 +27,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <meta name="robots" content="noindex"></meta>
+      <meta name="robots" content="noindex "></meta>
       <body className={`${primary.variable}`}>
         <main>{children}</main>
       </body>
