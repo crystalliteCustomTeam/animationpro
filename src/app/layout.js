@@ -12,6 +12,7 @@ export const metadata = {
   description: "Explore our animation studio's diverse services, where creativity meets precision, bringing your ideas to life in captivating motion.",
   // Canonical
   alternates: { canonical: 'https://infinity-animation.vercel.app/' },
+  name : "noindex",
   // OG Metas
   openGraph: {
     title: "Your Vision Coupled with Creative Excellence",
