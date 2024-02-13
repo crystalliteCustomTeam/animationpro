@@ -1,5 +1,6 @@
 // Import Fonts
 import { primary } from "./configs/fonts";
+
 // Import Components
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
       <body className={`${primary.variable}`}>
         <main>{children}</main>
       </body>
+      
     </html>
   );
 }
