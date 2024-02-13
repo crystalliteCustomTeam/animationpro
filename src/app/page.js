@@ -229,7 +229,7 @@ export default function Page() {
 
     return (
         <>
-            <Header />
+           
             <Hero content={hero} />
             <Review />
             <Looking content={looking} />
@@ -240,7 +240,7 @@ export default function Page() {
             <Testimonial content={testimonial} />
             <Contact />
             
-            <Footer />
+            
            
         </>
     )

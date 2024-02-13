@@ -13,7 +13,7 @@ export const metadata = {
   description: "Explore our animation studio's diverse services, where creativity meets precision, bringing your ideas to life in captivating motion.",
   // Canonical
   alternates: { canonical: 'https://infinity-animation.vercel.app/' },
-  name : "noindex",
+
   // OG Metas
   openGraph: {
     title: "Your Vision Coupled with Creative Excellence",
@@ -30,7 +30,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <meta name="robots" content="noindex "></meta>
       <body className={`${primary.variable}`}>
+      <Header />
         <main>{children}</main>
+        <Footer />
       </body>
       <Script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=a3b9dc66-9fe2-4cb3-87a3-1e7c830425af" /> 
     </html>
