@@ -4,12 +4,12 @@ export const metadata = {
     title: "Explore Our Motion Graphics Services for Engaging and Immersive Storytelling",
     description: "Experience the power of motion as we turn your ideas into mesmerizing visual narratives. Let's bring your story to life!.",
     // Canonical
-    alternates: { canonical: 'https://infinity-animation.vercel.app/motion-graphics' },
+    alternates: { canonical: 'https://infinityanimationspro.com/motion-graphics' },
     // OG Metas
     openGraph: {
         title: "Explore Our Motion Graphics Services for Engaging and Immersive Storytelling",
         description: "Experience the power of motion as we turn your ideas into mesmerizing visual narratives. Let's bring your story to life!.",
-        url: 'https://infinity-animation.vercel.app/motion-graphics',
+        url: 'https://infinityanimationspro.com/motion-graphics',
      siteName: 'InFinity Animation',
         locale: 'en_US',
         type: 'website',

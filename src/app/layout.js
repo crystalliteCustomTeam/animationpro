@@ -2,8 +2,7 @@
 import { primary } from "./configs/fonts";
 import Script from 'next/script'
 // Import Components
-import Header from "@/components/header/Header";
-import Footer from "@/components/footer/Footer";
+import ConditionalLayout from "./ConditionalLayout";
 // Import Css
 import "./global.css";
 // Meta Data
@@ -12,13 +11,13 @@ export const metadata = {
   title: "Your Vision Coupled with Creative Excellence",
   description: "Explore our animation studio's diverse services, where creativity meets precision, bringing your ideas to life in captivating motion.",
   // Canonical
-  alternates: { canonical: 'https://infinity-animation.vercel.app/' },
+  alternates: { canonical: 'https://infinityanimationspro.com/' },
 
   // OG Metas
   openGraph: {
     title: "Your Vision Coupled with Creative Excellence",
     description: "Explore our animation studio's diverse services, where creativity meets precision, bringing your ideas to life in captivating motion.",
-    url: 'https://infinity-animation.vercel.app/',
+    url: 'https://infinityanimationspro.com/',
     siteName: 'InFinity Animation',
     locale: 'en_US',
     type: 'website',
@@ -30,11 +29,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <meta name="robots" content="noindex "></meta>
       <body className={`${primary.variable}`}>
-      <Header />
-        <main>{children}</main>
-        <Footer />
+        <ConditionalLayout>
+          {children}
+        </ConditionalLayout>
       </body>
-      <Script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=a3b9dc66-9fe2-4cb3-87a3-1e7c830425af" /> 
+      <Script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=a3b9dc66-9fe2-4cb3-87a3-1e7c830425af" />
     </html>
   );
 }

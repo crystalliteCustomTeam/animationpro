@@ -4,12 +4,12 @@ export const metadata = {
     title: "Uplift Your Designs with Cutting-Edge Architectural Visualization Services",
     description: "Transform your architectural visions into captivating realities with our specialized visualization services. From concept to creation, experience the future of design. ",
     // Canonical
-    alternates: { canonical: 'https://infinity-animation.vercel.app/architectural-services' },
+    alternates: { canonical: 'https://infinityanimationspro.com/architectural-services' },
     // OG Metas
     openGraph: {
         title: "Uplift Your Designs with Cutting-Edge Architectural Visualization Services",
         description: "Transform your architectural visions into captivating realities with our specialized visualization services. From concept to creation, experience the future of design. ",
-        url: 'https://infinity-animation.vercel.app/architectural-services',
+        url: 'https://infinityanimationspro.com/architectural-services',
      siteName: 'InFinity Animation',
         locale: 'en_US',
         type: 'website',

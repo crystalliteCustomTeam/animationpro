@@ -4,12 +4,12 @@ export const metadata = {
     title: "Elevate Your Brand Presence with Dynamic Logo Animation",
     description: "Transform your brand identity into a visual spectacle with our Logo Animation services. Make a lasting impression with our expert logo animation craftsmanship.",
     // Canonical
-    alternates: { canonical: 'https://infinity-animation.vercel.app/logo-animation' },
+    alternates: { canonical: 'https://infinityanimationspro.com/logo-animation' },
     // OG Metas
     openGraph: {
         title: "Elevate Your Brand Presence with Dynamic Logo Animation",
         description: "Transform your brand identity into a visual spectacle with our Logo Animation services. Make a lasting impression with our expert logo animation craftsmanship.",
-        url: 'https://infinity-animation.vercel.app/logo-animation',
+        url: 'https://infinityanimationspro.com/logo-animation',
      siteName: 'InFinity Animation',
         locale: 'en_US',
         type: 'website',
