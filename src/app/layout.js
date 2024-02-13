@@ -1,6 +1,6 @@
 // Import Fonts
 import { primary } from "./configs/fonts";
-
+import Script from 'next/script'
 // Import Components
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
       <body className={`${primary.variable}`}>
         <main>{children}</main>
       </body>
-      
+      <Script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=a3b9dc66-9fe2-4cb3-87a3-1e7c830425af" /> 
     </html>
   );
 }

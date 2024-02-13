@@ -1,6 +1,5 @@
 // Import Page Components
-const ZENDESK_KEY = "a3b9dc66-9fe2-4cb3-87a3-1e7c830425af";
-import Zendesk, { ZendeskAPI } from "./zendex";
+
 import Hero from "@/components/hero/Hero";
 import Review from "@/components/review/Review";
 import Looking from '@/components/looking/Looking';
@@ -242,9 +241,7 @@ export default function Page() {
             <Contact />
             
             <Footer />
-            <Zendesk defer zendeskKey={ZENDESK_KEY} onLoaded={handleLoaded} />
-    
-
+           
         </>
     )
 }
