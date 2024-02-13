@@ -12,7 +12,6 @@ export const metadata = {
   description: "Explore our animation studio's diverse services, where creativity meets precision, bringing your ideas to life in captivating motion.",
   // Canonical
   alternates: { canonical: 'https://infinityanimationspro.com/' },
-
   // OG Metas
   openGraph: {
     title: "Your Vision Coupled with Creative Excellence",

@@ -1,11 +1,16 @@
-import Image from 'next/image'
 import React from 'react'
-
+import Link from 'next/link'
+import Image from 'next/image'
+//===== Component
+import usePopup from '@/app/configs/store/Popup';
 // ==== Images 
 import Price from "media/video-explainer/price-img-1.png"
-import Link from 'next/link'
 
 const Packages = () => {
+    const { popup, togglePopup } = usePopup()
+    const popupHandle = () => {
+        togglePopup(popup)
+    }
     return (
         <>
             <section className='py-[50px] bg-cover bg-center bg-[url("../../public/video-explainer/price-bg.jpg")] packages'>
@@ -57,9 +62,9 @@ const Packages = () => {
                                         </Link>
                                     </div>
                                     <div className="flex-wrap gap-y-3 flex items-center justify-center md:justify-between mt-[35px] mb-[20px]">
-                                        <Link href="javascript:;" className='flex items-center text-[16px] text-white font-[700] poppins bg-black py-[12px] px-[35px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
+                                        <button onClick={popupHandle} className='flex items-center text-[16px] text-white font-[700] poppins bg-black py-[12px] px-[35px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
                                             Get Started
-                                        </Link>
+                                        </button>
                                         <a href="javascript:$zopim.livechat.window.show();" className='flex items-center text-[16px] text-black font-[700] poppins bg-transparent border border-black py-[12px] px-[35px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
                                             Live Chat
                                         </a>
@@ -112,9 +117,9 @@ const Packages = () => {
                                         </Link>
                                     </div>
                                     <div className="flex-wrap gap-y-3 flex items-center justify-center md:justify-between mt-[35px] mb-[20px]">
-                                        <Link href="javascript:;" className='flex items-center text-[16px] text-white font-[700] poppins bg-black py-[12px] px-[35px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
+                                        <button onClick={popupHandle} className='flex items-center text-[16px] text-white font-[700] poppins bg-black py-[12px] px-[35px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
                                             Get Started
-                                        </Link>
+                                        </button>
                                         <a href="javascript:$zopim.livechat.window.show();" className='flex items-center text-[16px] text-black font-[700] poppins bg-transparent border border-black py-[12px] px-[35px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
                                             Live Chat
                                         </a>
@@ -167,9 +172,9 @@ const Packages = () => {
                                         </Link>
                                     </div>
                                     <div className="flex-wrap gap-y-3 flex items-center justify-center md:justify-between mt-[35px] mb-[20px]">
-                                        <Link href="javascript:;" className='flex items-center text-[16px] text-white font-[700] poppins bg-black py-[12px] px-[35px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
+                                        <button onClick={popupHandle} className='flex items-center text-[16px] text-white font-[700] poppins bg-black py-[12px] px-[35px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
                                             Get Started
-                                        </Link>
+                                        </button>
                                         <a href="javascript:$zopim.livechat.window.show();" className='flex items-center text-[16px] text-black font-[700] poppins bg-transparent border border-black py-[12px] px-[35px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
                                             Live Chat
                                         </a>
