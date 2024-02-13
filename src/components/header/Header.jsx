@@ -166,7 +166,7 @@ function NavList() {
                 color="white"
                 className="font-sans text-[14px] xl:text-[16px] font-normal"
             >
-                <ListItem className="flex items-center gap-2 p-2 xl:px-4 py-2">Home</ListItem>
+                Home
             </Link>
             <Link
                 href="/why-us"
@@ -174,7 +174,7 @@ function NavList() {
                 color="white"
                 className="font-sans text-[14px] xl:text-[16px] font-normal"
             >
-                <ListItem className="flex items-center gap-2 p-2 xl:px-4 py-2">Why Us</ListItem>
+                Why Us
             </Link>
             <MegaMenu />
             <Link
@@ -183,7 +183,7 @@ function NavList() {
                 color="white"
                 className="font-sans text-[14px] xl:text-[16px] font-normal"
             >
-                <ListItem className="flex items-center gap-2 p-2 xl:px-4 py-2">Portolio</ListItem>
+                Portolio
             </Link>
             <Link
                 href="/process"
@@ -191,7 +191,7 @@ function NavList() {
                 color="white"
                 className="font-sans text-[14px] xl:text-[16px] font-normal"
             >
-                <ListItem className="flex items-center gap-2 p-2 xl:px-4 py-2">Process</ListItem>
+                Process
             </Link>
             <Link
                 href="/pricing"
@@ -199,7 +199,7 @@ function NavList() {
                 color="white"
                 className="font-sans text-[14px] xl:text-[16px] font-normal"
             >
-                <ListItem className="flex items-center gap-2 p-2 xl:px-4 py-2">Pricing</ListItem>
+                Pricing
             </Link>
             <Link
                 href="/blog"
@@ -207,7 +207,7 @@ function NavList() {
                 color="white"
                 className="font-sans text-[14px] xl:text-[16px] font-normal"
             >
-                <ListItem className="flex items-center gap-2 p-2 xl:px-4 py-2">Blog</ListItem>
+                Blog
             </Link>
             <Link
                 href="/contact-us"
@@ -215,9 +215,7 @@ function NavList() {
                 color="white"
                 className="font-sans text-[14px] xl:text-[16px] font-normal"
             >
-                <ListItem className="flex items-center gap-2 p-2 xl:px-4 py-2">
-                    Contact Us
-                </ListItem>
+                Contact Us
             </Link>
         </List>
     );
@@ -239,7 +237,7 @@ const Header = () => {
                 <Navbar className="max-w-none px-0 py-2 rounded-none bg-transparent shadow-none backdrop-saturate-100 backdrop-blur-none border-none">
                     <div className="flex items-center justify-between text-white relative">
                         <Link
-        
+
                             href="/"
                             variant="h6"
                             className="mr-4 cursor-pointer py-1.5 lg:ml-2 lg:w-[315px]"
