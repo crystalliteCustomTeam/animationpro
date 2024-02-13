@@ -51,7 +51,7 @@ const Packages = () => {
                                             speak with us
                                             <span className='text-[#231f20] text-[16px]'>+1-833-666-6689</span>
                                         </Link>
-                                        <Link href="javascript:;" className='text-left m-0 text-[14px] leading-[20px] text-[#f61253] montserrat flex flex-col justify-center font-[700]'>
+                                        <Link href="javascript:$zopim.livechat.window.show();" className='text-left m-0 text-[14px] leading-[20px] text-[#f61253] montserrat flex flex-col justify-center font-[700]'>
                                             Want to Discuss
                                             <span className='text-[#231f20] text-[16px]'>Live Chat Now</span>
                                         </Link>
@@ -60,7 +60,7 @@ const Packages = () => {
                                         <Link href="javascript:;" className='flex items-center text-[16px] text-white font-[700] poppins bg-black py-[12px] px-[35px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
                                             Get Started
                                         </Link>
-                                        <Link href="javascript:;" className='flex items-center text-[16px] text-black font-[700] poppins bg-transparent border border-black py-[12px] px-[35px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
+                                        <Link href="javascript:$zopim.livechat.window.show();" className='flex items-center text-[16px] text-black font-[700] poppins bg-transparent border border-black py-[12px] px-[35px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
                                             Live Chat
                                         </Link>
                                     </div>
@@ -106,7 +106,7 @@ const Packages = () => {
                                             speak with us
                                             <span className='text-[#231f20] text-[16px]'>+1-833-666-6689</span>
                                         </Link>
-                                        <Link href="javascript:;" className='text-left m-0 text-[14px] leading-[20px] text-[#f61253] montserrat flex flex-col justify-center font-[700]'>
+                                        <Link href="javascript:$zopim.livechat.window.show();" className='text-left m-0 text-[14px] leading-[20px] text-[#f61253] montserrat flex flex-col justify-center font-[700]'>
                                             Want to Discuss
                                             <span className='text-[#231f20] text-[16px]'>Live Chat Now</span>
                                         </Link>
@@ -115,7 +115,7 @@ const Packages = () => {
                                         <Link href="javascript:;" className='flex items-center text-[16px] text-white font-[700] poppins bg-black py-[12px] px-[35px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
                                             Get Started
                                         </Link>
-                                        <Link href="javascript:;" className='flex items-center text-[16px] text-black font-[700] poppins bg-transparent border border-black py-[12px] px-[35px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
+                                        <Link href="javascript:$zopim.livechat.window.show();" className='flex items-center text-[16px] text-black font-[700] poppins bg-transparent border border-black py-[12px] px-[35px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
                                             Live Chat
                                         </Link>
                                     </div>
@@ -161,7 +161,7 @@ const Packages = () => {
                                             speak with us
                                             <span className='text-[#231f20] text-[16px]'>+1-833-666-6689</span>
                                         </Link>
-                                        <Link href="javascript:;" className='text-left m-0 text-[14px] leading-[20px] text-[#f61253] montserrat flex flex-col justify-center font-[700]'>
+                                        <Link href="javascript:$zopim.livechat.window.show();" className='text-left m-0 text-[14px] leading-[20px] text-[#f61253] montserrat flex flex-col justify-center font-[700]'>
                                             Want to Discuss
                                             <span className='text-[#231f20] text-[16px]'>Live Chat Now</span>
                                         </Link>
@@ -170,7 +170,7 @@ const Packages = () => {
                                         <Link href="javascript:;" className='flex items-center text-[16px] text-white font-[700] poppins bg-black py-[12px] px-[35px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
                                             Get Started
                                         </Link>
-                                        <Link href="javascript:;" className='flex items-center text-[16px] text-black font-[700] poppins bg-transparent border border-black py-[12px] px-[35px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
+                                        <Link href="javascript:$zopim.livechat.window.show();" className='flex items-center text-[16px] text-black font-[700] poppins bg-transparent border border-black py-[12px] px-[35px] tracking-[.3px] rounded-[5px] leading-[20px] shadow-2xl'>
                                             Live Chat
                                         </Link>
                                     </div>
